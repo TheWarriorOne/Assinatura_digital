@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submissão de Relatório de Despesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Submissão de Relatório de Despesas</h2>
+        <form id="submissao-form">
+            <input type="text" id="descricao" placeholder="Descrição" required>
+            <input type="date" id="data" required>
+            <input type="number" id="valor" placeholder="Valor" step="any" required>
+            <input type="file" id="recibo" accept="image/*" required>
+            <button type="submit">Submeter</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
